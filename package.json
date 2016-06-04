@@ -1,0 +1,11 @@
+{
+  "name": "damgate",
+  "version": "1.0.0",
+  "description": "Damming up and releasing out flowing events with some conditional patterns.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "metheglin",
+  "license": "MIT"
+}
