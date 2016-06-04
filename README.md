@@ -21,7 +21,7 @@ After an interval dam is opened again.
 
 # LastDamGate
 
-This dam passes through the last event unless the no event is arrived within the interval.  
+This dam passes through the last event if no event is arrived within the interval.  
 This is useful for a case like firing text search api on form change events.  
 Here is the reactjs example.  
 
@@ -39,10 +39,9 @@ var KeywordInput = React.createClass({
   }
   render: function() {
     return (
-      <input className="keyword" 
-        id="search_keywords" 
-        name="search[keywords]" 
+      <input
         type="text"
+        value={this.state.text}
         onChange={this.handleChange} />
     )
   }
