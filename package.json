@@ -1,8 +1,8 @@
 {
   "name": "damgate",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Damming up and releasing out flowing events with some conditional patterns.",
-  "main": "damgate.js",
+  "main": "dist/damgate.js",
   "scripts": {
     "compile": "babel --presets es2015 -d dist/ src/",
     "prepublish": "npm run compile"
